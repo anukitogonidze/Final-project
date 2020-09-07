@@ -1,32 +1,22 @@
 .header{
     position:fixed;
-    /* position: relative; */
-    z-index: 50;
+     z-index: 50;
     top: 0px;
     margin: 0 auto;
-    /* background-color: rgb(255,255,255,0.5); */
-  /* background-color: white; */
-  background-color: rgba(8, 71, 39, 0.7);
-
-    
+    background-color: rgba(8, 71, 39, 0.7);
     font-size: 20px;
     height: 50px;
-   
     width: 100%;
-    font-family: "BPG Square Mtavruli", sans-serif;
-   
+     font-family: "BPG Square Mtavruli", sans-serif;
 }
 .nav-link{
     color: white;
+    font-family: "BPG WEB 001 Caps", sans-serif;
 }
 .slider{
-    /* height: 500px; */
+   
     position: relative;
     z-index: 40;
-    /* margin-bottom: 10px; */
-    
-    
-    
 }
 .wodoreti{
     position: absolute;
@@ -38,88 +28,64 @@
     font-family: "BPG Square Mtavruli", sans-serif;
 }
 .wodoreti h1{
-    font-size: 80px;
+    font-size: 70px;
+    font-family: "BPG WEB 001 Caps", sans-serif;
 }
-
 body{
     background-color: gainsboro;
 }
 .container-fluid{
-    /* max-width: 1300px; */
     padding-top: 100px;
-   
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    
     z-index: 40;
-    /* background-color: gainsboro; */
-
 }
 .class-a{
-    font-weight: 800;
+    font-weight: 800;  
+}
+.proeqti-text{
+    font-size: 15px;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
  justify-content: space-between;
-
- /* width: 1200px; */
- /* height: 500px; */
 }
 .image{
     width: 500px;
-    /* height: 500px; */
-/* justify-content: center; */
 }
 #proeqti{
     margin-bottom: 50px;
 }
 .text{
     width: 600px;
-    /* height: 500px; */
-    font-family: "BPG Nino Medium Caps", sans-serif;
+    font-family: "BPG WEB 001 Caps", sans-serif;
     /* transition: all 0.3s linear 0.3s; */
-
 }
-
-
-/* .banner-wodoreti{
-    font-family:"BPG Banner Caps", sans-serif ;
-} */
 
 .title-h5{
      transition: all 0.6s linear 0.6s;
      margin-top: 30px;
-    
+     font-family: "BPG WEB 001 Caps", sans-serif;
 }
 .title-h5:hover{
     color:teal;
     font-size: 25px;
-
-
 }
 
 .container h5{
     font-weight: 800;
     font-size: 22px;
 }
-  
-
 .read{
     font-weight: 800;
     font-size: 15px;
 }
 .read::after{
     content: '...';
-    /* margin-left: 5px; */
-   
-    
 }
-/* read::before{
-    content: '//';
-} */
 .column{
     height: 80px;
     background-color: white;
@@ -138,12 +104,11 @@ body{
 }
 .title {
     font-weight: 800;
-   display: block;
+    display: block;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 100px;
     font-size: 30px;
-    
 }
 .title:after{
     content: '';
@@ -152,35 +117,27 @@ body{
     width: 200px;
     height: 5px;
     background-color: teal;
-   
 }
-/* .card{
-    box-shadow: rgba(67, 68, 67, 0.7);
-} */
+
 .map{
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
 iframe{
     width: 1200px;
     height: 300px;
 }
-
 .contact{
     width: 1200px;
     margin-top: 20px;
-    
-    
 }
 .contact-h5{
-    display: block;
+  display: block;
   margin: 0 auto;
   text-align: center;
-
-  
-    margin-top: 100px;
-    margin-bottom: 100px;
-    transition: all 0.3s linear 0.3s;
+  font-family: "BPG WEB 001 Caps", sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transition: all 0.3s linear 0.3s;
 }
 .contact-h5:hover{
     color:teal;
@@ -205,23 +162,13 @@ form textarea {
     border-radius: 4px;
     padding: 16px;
     margin-right: 16px;
-    width: 200px;
-    
+    width: 200px;   
 }
-
-/* textarea:focus { 
-    outline-color: #5863F8;
-} */
-
-
-
 input{
     width: 300px;
     border: 2px solid #E8E8E8;
     border-radius: 4px;
     padding: 15px;
-    /* margin: 5px; */
-    
 }
 input:focus{
     outline-color: #5863F8;
@@ -237,18 +184,15 @@ button{
     text-transform: uppercase;
     font-size: 20px;
 }
-
 .input-button {
     flex-direction: column;
     justify-content: space-between;
     display: flex;
 }
-
 form {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* width: 1200px; */
 }
 .footer{
     background-color: rgba(8, 71, 39, 0.7);
@@ -260,30 +204,28 @@ form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-   
-
 }
 .footer-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
 }
-
 .footer-img{
     width: 30px;
     height: 30px;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 .footer-p{
-    /* display:flex;
-    flex-direction: column; */
+    
     font-size: 20px;
     text-align: center;
-   
-
 }
+
+/* .burger{
+    display: none;
+    color: tomato;
+    font-size: 20px;
+} */
 
 @media (max-width:1024px){
     .wodoreti h1{
@@ -295,12 +237,10 @@ form {
     
 }
 
-
 @media (max-width: 480px) {
     .header{
         width: 80%;
         font-size: 10px;
-    
     }
     .slider{
         width: 100%;
@@ -317,7 +257,13 @@ form {
     input{
         width: 330px;
     }
-}
+    /* ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+} */
 
 
 
