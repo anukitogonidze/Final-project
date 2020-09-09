@@ -220,12 +220,12 @@ form {
     font-size: 20px;
     text-align: center;
 }
-
-/* .burger{
+/* .burger-icone{
+    width: 70px;
+    position: relative;
     display: none;
-    color: tomato;
-    font-size: 20px;
 } */
+
 
 @media (max-width:1024px){
     .wodoreti h1{
@@ -257,13 +257,17 @@ form {
     input{
         width: 330px;
     }
-    /* ul{
+    /* li{
         display: none;
-    }
-    .burger{
+    } 
+    
+    .burger-icone{
         display: block;
     }
-} */
+    .header{
+        background-color: none;
+    } */
+} 
 
 
 
