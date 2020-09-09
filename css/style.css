@@ -220,11 +220,11 @@ form {
     font-size: 20px;
     text-align: center;
 }
-/* .burger-icone{
+.burger-icone{
     width: 70px;
     position: relative;
     display: none;
-} */
+}
 
 
 @media (max-width:1024px){
@@ -257,7 +257,7 @@ form {
     input{
         width: 330px;
     }
-    /* li{
+    li{
         display: none;
     } 
     
@@ -266,7 +266,7 @@ form {
     }
     .header{
         background-color: none;
-    } */
+    }
 } 
 
 
