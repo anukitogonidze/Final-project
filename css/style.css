@@ -44,6 +44,10 @@ body{
 }
 .class-a{
     font-weight: 800;  
+
+}
+#project{
+    margin-top: 10px;
 }
 .proeqti-text{
     font-size: 15px;
@@ -63,7 +67,7 @@ body{
 .text{
     width: 600px;
     font-family: "BPG WEB 001 Caps", sans-serif;
-    /* transition: all 0.3s linear 0.3s; */
+
 }
 
 .title-h5{
@@ -256,7 +260,7 @@ form {
         width: 350px;
     }
     input{
-        width: 330px;
+        width: 100%;
     }
     .flex{
         flex-direction: column;
@@ -271,6 +275,10 @@ form {
     .wodoreti h1{
        padding-top: 150px;
     }
+    #project{
+        margin-top: 30px;
+    }
+    
     
     
 }  
