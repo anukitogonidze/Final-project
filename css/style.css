@@ -13,6 +13,7 @@
     color: white;
     font-family: "BPG WEB 001 Caps", sans-serif;
 }
+
 .slider{
    
     position: relative;
@@ -220,11 +221,11 @@ form {
     font-size: 20px;
     text-align: center;
 }
-.burger-icone{
+/* .burger-icone{
     width: 70px;
     position: relative;
     display: none;
-}
+} */
 
 
 @media (max-width:1024px){
@@ -257,17 +258,22 @@ form {
     input{
         width: 330px;
     }
-    li{
-        display: none;
-    } 
-    
-    .burger-icone{
-        display: block;
+    .flex{
+        flex-direction: column;
     }
     .header{
-        background-color: none;
+        height: 150px;
+        width: 100%;
     }
-} 
+    .slider{
+        padding-top: 150px;
+    }
+    .wodoreti h1{
+       padding-top: 150px;
+    }
+    
+    
+}  
 
 
 
